@@ -8,9 +8,9 @@ def COVERAGE = 80
 def VARIANT = "DEFAULT"
 
 parallel (
-    "SAPSYS":{
+    "NPL":{
         node {
-        	def LABEL = "SAPSYS"
+        	def LABEL = "NPL"
         	def HOST = "vhcala4hcs.dummy.nodomain"
         	def CREDENTIAL = "SAPSYS"
         	
