@@ -1,4 +1,4 @@
-# Simple ABAP REST API
+# ABAP REST API
 
 Clone or import using [abapGit](https://github.com/larshp/abapGit)
 
