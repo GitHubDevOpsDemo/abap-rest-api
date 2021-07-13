@@ -12,7 +12,7 @@ parallel (
         node {
         	def LABEL = "NPL"
         	def HOST = "vhcala4hcs.dummy.nodomain"
-        	def CREDENTIAL = "SAPSYS"
+        	def CREDENTIAL = "NPL"
         	
         	git poll: true, branch: BRANCH, url: GITURL
         		
