@@ -1,18 +1,18 @@
 import jenkins.model.*
 
-def GITURL = 'https://github.com/pacroy/abap-rest-api.git'
+def GITURL = 'https://https://github.com/GitHubDevOpsDemo/abap-rest-api'
 def BRANCH = 'master'
 def PIPELINE_GITURL = 'https://github.com/pacroy/abap-ci-postman.git'
-def PACKAGE = '''$REST_SIMPLE'''
+def PACKAGE = '''Z_abap-rest-api'''
 def COVERAGE = 80
 def VARIANT = "DEFAULT"
 
 parallel (
-    "NPL":{
+    "GitCreds":{
         node {
-        	def LABEL = "NPL"
+        	def LABEL = "GitCreds"
         	def HOST = "vhcalnplci.dummy.nodomain"
-        	def CREDENTIAL = "NPL"
+        	def CREDENTIAL = "GitCreds"
         	
         	git poll: true, branch: BRANCH, url: GITURL
         		
