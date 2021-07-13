@@ -8,11 +8,11 @@ def COVERAGE = 80
 def VARIANT = "DEFAULT"
 
 parallel (
-    "GitCreds":{
+    "SAPSYS":{
         node {
         	def LABEL = "GitCreds"
-        	def HOST = "vhcalnplci.dummy.nodomain"
-        	def CREDENTIAL = "GitCreds"
+        	def HOST = "vhcala4hcs.dummy.nodomain"
+        	def CREDENTIAL = "SAPSYS"
         	
         	git poll: true, branch: BRANCH, url: GITURL
         		
