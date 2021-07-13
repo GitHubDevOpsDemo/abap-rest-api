@@ -1,6 +1,6 @@
 import jenkins.model.*
 
-def GITURL = 'https://https://github.com/GitHubDevOpsDemo/abap-rest-api'
+def GITURL = 'https://github.com/GitHubDevOpsDemo/abap-rest-api'
 def BRANCH = 'master'
 def PIPELINE_GITURL = 'https://github.com/pacroy/abap-ci-postman.git'
 def PACKAGE = '''Z_abap-rest-api'''
