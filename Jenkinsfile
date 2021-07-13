@@ -10,7 +10,7 @@ def VARIANT = "DEFAULT"
 parallel (
     "SAPSYS":{
         node {
-        	def LABEL = "GitCreds"
+        	def LABEL = "SAPSYS"
         	def HOST = "vhcala4hcs.dummy.nodomain"
         	def CREDENTIAL = "SAPSYS"
         	
