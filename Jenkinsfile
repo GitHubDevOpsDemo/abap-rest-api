@@ -3,7 +3,7 @@ import jenkins.model.*
 def GITURL = 'https://github.com/GitHubDevOpsDemo/abap-rest-api'
 def BRANCH = 'master'
 def PIPELINE_GITURL = 'https://github.com/GitHubDevOpsDemo/abap-ci-postman.git'
-def PACKAGE = '''Z_abap-rest-api'''
+def PACKAGE = '''z_abap-rest-api'''
 def COVERAGE = 80
 def VARIANT = "DEFAULT"
 
